@@ -5,3 +5,4 @@ RUN apt-get update && \
 
 ADD dockerd /usr/local/bin/dockerd
 ADD docker-init /usr/local/bin/docker-init
+ADD docker-proxy /usr/local/bin/docker-proxy
